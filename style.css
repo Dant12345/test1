@@ -1,0 +1,53 @@
+body {
+  font-size: 20px;
+}
+
+h1,h2 {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,td {
+  border: 2px solid black;
+  padding: 20px 30px;
+  text-align: center;
+
+}
+
+.books th,
+{
+  width: 33%;
+}
+
+.books tr:not(:first-child) td:first-child {
+  width: 5%;
+}
+
+.books .number {
+  width: 5%;
+}
+
+.books tr:not(:first-child) td:nth-child(3) {
+  width: 5%;
+} 
+
+
+.inner {
+  padding: 0;
+}
+.table-inner {
+  margin: -2px;
+  padding: 0;
+  border-collapse: collapse;
+}
+.no-border td {
+  border-bottom: none ;
+}
+
+.table-inner tr td:first-child {
+  padding: 10px;
+
+}
